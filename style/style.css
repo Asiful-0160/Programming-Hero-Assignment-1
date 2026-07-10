@@ -70,3 +70,51 @@ nav ul a {
   left: 50%;
   transform: translateX(-50%);
 }
+
+/* Meet the Speakers */
+
+.meet-the-speakers h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.speaker-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-items: center;
+  padding: 0 8%;
+}
+
+.speaker-card-container img {
+  max-width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.speaker-card-container div {
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}
+
+.speaker-job-field {
+  color: #2563EB;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 20px;
+  padding-top: 10px;
+} 
+
+.speaker-name {
+  margin-left: 20px;
+  padding-top: 10px;
+} 
+
+.speaker-job-title {
+  color: #575757;
+  font-size: 12px;
+  margin-left: 20px;
+  padding: 10px 0;
+  padding-bottom: 25px;
+}
