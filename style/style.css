@@ -3,6 +3,26 @@
   margin: 0;
 }
 
+.common-button {
+  background-color: #1D4ED8;
+  color: white;
+  border: none;
+  font-weight: 700;
+  padding: 15px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.outline-button {
+  background-color: white ;
+  color: #1D4ED8;
+  border: 1px solid #1D4ED8;
+  font-weight: 700;
+  padding: 15px 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
 /* Nav Bar */
 
 nav {
@@ -24,15 +44,6 @@ nav ul a {
   color: #575757;
   text-decoration: none;
   font-size: 15px;
-}
-
-.common-button {
-  background-color: #1D4ED8;
-  color: white;
-  border: none;
-  font-weight: 700;
-  padding: 15px 45px;
-  border-radius: 10px;
 }
 
 /* Hero Section */
@@ -118,3 +129,110 @@ nav ul a {
   padding: 10px 0;
   padding-bottom: 25px;
 }
+
+/* Secure Your Spot */
+
+.secure-your-spot-section > h1, .secure-your-spot-section > p {
+  text-align: center;
+}
+
+.secure-your-spot-section > h1 {
+  margin-top: 130px;
+  font-size: 44px;
+}
+
+.secure-your-spot-section > p {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  color: #575757;
+  font-size: 14px;
+}
+
+.price-card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px
+}
+
+.pricing-card {
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  min-width: 20%;
+}
+
+.pricing-card-type {
+  color: #888888;
+  font-weight: 600;
+  font-size: 12px;
+  margin: 24px;
+  margin-bottom: 0px;
+}
+
+.pricing-card-price {
+  color: #0D1B2A;
+  font-weight: 700;
+  font-size: 34px;
+  margin: 4px 24px;
+}
+
+.pricing-card-people-amount {
+  color: #888888;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 0px 24px;
+}
+
+.pricing-card hr {
+  border: none;
+  height: 1px;
+  background-color: #E5E7EB;
+  margin: 20px 24px;
+}
+
+.pricing-card li::marker {
+  color: #2563EB;
+}
+
+.pricing-card ul li {
+  color: #333333;
+  font-size: 12px;
+  padding: 8px 0;
+}
+
+.pricing-card-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.pricing-card-button-container button {
+  padding: 10px 45px;
+  min-width: 80%;
+  border-radius: 4px;
+}
+
+.highlighted-card {
+  background-color: #0D1B2A; 
+}
+
+.highlighted-card p:first-child {
+  color: #93C5FD;
+}
+
+.highlighted-card h1 {
+  color: white;
+}
+
+.highlighted-card hr {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.highlighted-card ul li {
+  color: rgba(255, 255, 255, 0.7)
+}
+
+.highlighted-card .pricing-card-button-container button {
+  background-color: #1D4ED8;
+  color: white;
+}
+
