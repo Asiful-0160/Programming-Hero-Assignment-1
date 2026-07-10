@@ -99,6 +99,15 @@ nav ul a {
   padding: 0 8%;
 }
 
+.speaker-card-left {
+  justify-self: end;
+;
+}
+
+.speaker-card-right {
+  justify-self: start;
+}
+
 .speaker-card-container img {
   max-width: 100%;
   border-radius: 12px 12px 0 0;
