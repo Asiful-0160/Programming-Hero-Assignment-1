@@ -1,0 +1,32 @@
+*{
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  column-gap: 15px;
+  padding: 0px;
+}
+
+nav ul a {
+  color: #575757;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.common-button {
+  background-color: #1D4ED8;
+  color: white;
+  border: none;
+  font-weight: 700;
+  padding: 15px 45px;
+  border-radius: 10px;
+}
