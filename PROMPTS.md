@@ -1,5 +1,9 @@
-I want to create a vertical line that's position is absolute to my parent class's relative position. My parent class is a 2x2 grid and I want the line to go in the middle to separate left column from right column. How do i approach this?
-what are these pseudo emements, and what do they do exactly, why we used ::before but not ::after? both before and after do the same thing in my code :/
-now if I want to add some more decorative items, how do I approach that. For example, I want to add 2 circles, 1 at the top of the line and another at the bottom. how do I make a circle, since for the line, we did'nt specify that it's a line, we just gave a width. so what to do for a circle?
-so, to make more than 2 pseudo-elements, i need more divs ?
-I have a div thats in a grid. I can horizontaly center it using justify self, how can i center it vertically?
+1. I want to create a vertical line that's position is absolute to my parent class's relative position. My parent class is a 2x2 grid and I want the line to go in the middle to separate left column from right column. How do i approach this?
+
+2. what are these pseudo emements, and what do they do exactly, why we used ::before but not ::after? both before and after do the same thing in my code :/
+
+3. now if I want to add some more decorative items, how do I approach that. For example, I want to add 2 circles, 1 at the top of the line and another at the bottom. how do I make a circle, since for the line, we did'nt specify that it's a line, we just gave a width. so what to do for a circle?
+
+4. so, to make more than 2 pseudo-elements, i need more divs ?
+
+5. I have a div thats in a grid. I can horizontaly center it using justify self, how can i center it vertically?
