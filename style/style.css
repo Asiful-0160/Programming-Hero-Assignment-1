@@ -142,12 +142,14 @@ nav ul a {
 
 .secure-your-spot-section > h1,
 .secure-your-spot-section > p,
-.topic-section-parent > h1 {
+.topic-section-parent > h1,
+.news-section > h1 {
   text-align: center;
 }
 
 .secure-your-spot-section > h1,
-.topic-section-parent h1 {
+.topic-section-parent h1,
+.news-section > h1 {
   margin-top: 130px;
   font-size: 44px;
 }
@@ -262,7 +264,6 @@ nav ul a {
   grid-template-columns: repeat(2, 1fr);
   padding: 0 15%;
   margin: 70px 0;
-  margin-bottom: 150px;
   gap: 20px;
 }
 
@@ -348,8 +349,66 @@ nav ul a {
   background-color: #2563EB;
 }
 
-/* Footer Section */
+/* News Section */
+.news-section-body {
+  display: grid;
+  grid-template-columns: .9fr 1.1fr;
+  padding: 0 5%;
+  margin: 70px 0;
+}
 
+.news-section-left > p {
+  color: rgb(109, 114, 120);
+  margin-bottom: 15px;
+}
+
+.news-announcement-date {
+    color: black;
+    font-size: 1.05em;
+    font-weight: 700;
+}
+
+.news-section-left a {
+  text-decoration: none;
+  color: #2563EB;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.news-section-right {
+  justify-self: center;
+  align-self: center;
+}
+
+.news-section-right h2 {
+  margin-bottom: 15px;
+}
+
+.newsletter-signup-container {
+  border: 2px solid #2563EB;
+  padding: 30px 50px;
+}
+
+.newsletter-signup-container input{
+  padding: 10px 15px;
+  border: 1px solid #2563EB;
+  border-radius: 4px;
+  margin: 1px;
+}
+
+.newsletter-signup-container button {
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin: 1px;
+}
+
+.newsletter-signup-container button:hover {
+  background-color: #1D4ED8;
+  color: white;
+  transition: 0.3s;
+}
+
+/* Footer Section */
 .footer-section {
   padding: 0 5%;
   background-color: #0D1B2A;
