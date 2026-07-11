@@ -387,6 +387,7 @@ nav ul a {
 .newsletter-signup-container {
   border: 2px solid #2563EB;
   padding: 30px 50px;
+  border-radius: 4px;
 }
 
 .newsletter-signup-container input{
